@@ -1,0 +1,15 @@
+{
+  "name": "genpark-forward-chaining-rete-inference-engine-skill",
+  "version": "1.0.0",
+  "description": "Forward chaining expert system with Rete pattern matching.",
+  "author": "GenPark AI",
+  "license": "Apache-2.0",
+  "dependencies": [],
+  "keywords": [
+    "rete-algorithm",
+    "forward-chaining",
+    "expert-system",
+    "rule-engine",
+    "agentic-ai"
+  ]
+}
