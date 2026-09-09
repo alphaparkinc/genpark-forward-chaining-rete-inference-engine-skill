@@ -56,7 +56,7 @@ class ReteInferenceEngine:
                         w_subj, w_pred, w_obj = wme
                         if (c_subj.startswith("?") or c_subj == w_subj) and \
                            (c_pred.startswith("?") or c_pred == w_pred) and \
-                           (c_obj.startswith("?") if isinstance(c_obj, str) else c_obj == w_obj):
+                           ((isinstance(c_obj, str) and c_obj.startswith("?")) or c_obj == w_obj):
                             found = True
                             if c_subj.startswith("?"):
                                 bindings[c_subj] = w_subj
